@@ -5,7 +5,7 @@
   top: 0px;
   height: 125px;
   width: 100%;
-  position: fixed;
+  position: absolute;
   background: url(../images/nav-bg.gif) #353535;
   border-bottom: 4px solid #434343;
   box-shadow: 0px 1px 3px rgb(0 0 0 / 25%);
@@ -19,7 +19,8 @@
 
 #title {
   display:flex;
-  padding-top: 50px;
+  padding-top: 7%;
+  position:relative;
 }
 
 #P1 {
@@ -28,11 +29,14 @@
 }
 
 #socialm {
-  padding-left: 40%;
+  position:absolute;
+  display:flex;
+  padding-top: 5%;
+  /* padding-left: 40%; */
 }
 
 #dudes {
-  padding-left: 23%;
+  padding-left: 30%;
 }
 
 html {
@@ -53,7 +57,7 @@ span {
 
 h1 {
   font-size: 2.2em;
-  padding-top: 10%;
+  /* padding-top: 10%; */
   padding-left: 28%;
   padding-right: 33%;
   font-family: 'Press Start 2P', cursive;
