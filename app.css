@@ -2,23 +2,47 @@
   z-index: 100;
   left: 0;
   top: 0px;
-  height: 60px;
+  height: 100px;
   width: 100%;
   position: fixed;
   background: url(../images/nav-bg.gif) #353535;
   border-bottom: 4px solid #434343;
   box-shadow: 0px 1px 3px rgb(0 0 0 / 25%);
 }
+
+#headerspans {
+  padding-top: 10px;
+  padding-left: 10%;
+}
 user agent stylesheet
 div {
   display: block;
 }
 h1 {
-  font-size: 2em;
+  font-size: 2.8em;
   padding-top: 5%;
-  padding-left: 30%;
+  padding-left: 28%;
   padding-right: 33%;
   font-family: 'Press Start 2P', cursive;
+}
+h2{
+  position: relative;
+    display: inline-flex;
+    flex-shrink: 0;
+    justify-content: center;
+    overflow: hidden;
+    font: inherit;
+    font-weight: 500;
+    line-height: 1.67;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: .188em;
+    color: #fff;
+    font-size: 20px;
+    padding: 4px 30px;
+    border-width: 8px;
+    font-family: 'Press Start 2P', cursive;
 }
 body {
   padding: 0px 0 20px 0px;
@@ -38,6 +62,10 @@ html {
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
 }
+span {
+  
+  padding-left: 40px;
+}
 
 .button {
     position: relative;
@@ -55,32 +83,20 @@ html {
     cursor: pointer;
     border: 0 solid rgba(0,0,0,0);
     border-radius: 50px;
-    outline: 0;
-    transition: all .2s cubic-bezier(0.4, 0, 0.2, 1);
-    transition-property: border-color,background-color,color;
-    transform: translate3d(0, 0, 0);
     background-color: #583bb6;
     border-color: #583bb6;
     color: #fff;
-    font-size: 15px;
-    padding: 10px 24px;
+    font-size: 20px;
+    padding: 4px 30px;
     border-width: 8px;
-}
-
-.button--xsmall-mobile[data-v-191d3c08] {
-  font-size: 10px;
-  padding: 10px 24px;
-  border-width: 0;
-}
-.button--plump-purple[data-v-191d3c08] {
-  background-color: #583bb6;
-  border-color: #583bb6;
-  color: #fff;
+    font-family: 'Press Start 2P', cursive;
 }
 
 
+  .button:hover {
+    color: yellow;
+    box-shadow: 0 0.5em 0.5em -.04em #f1ff5c;
+    transform: translateY(0.25em);
+  }
 
 
-/* #fork {
-  color: white;
-} */
