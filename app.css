@@ -19,7 +19,7 @@
 
 #title {
   display:flex;
-  padding-top: 7%;
+  /* padding-top: 7%; */
   position:relative;
 }
 
@@ -29,7 +29,7 @@
 }
 
 #socialm {
-  position:absolute;
+  /* position:absolute; */
   display:flex;
   padding-top: 5%;
   /* padding-left: 40%; */
