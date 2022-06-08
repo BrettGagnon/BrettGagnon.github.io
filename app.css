@@ -1,5 +1,6 @@
 #header {
   z-index: 100;
+  display:flex;
   left: 0;
   top: 0px;
   height: 100px;
@@ -11,7 +12,7 @@
 }
 
 #headerspans {
-  padding-top: 10px;
+  padding-top: 20px;
   padding-left: 10%;
 }
 
@@ -39,7 +40,7 @@ h2 {
     text-transform: uppercase;
     letter-spacing: .188em;
     color: #fff;
-    font-size: 20px;
+    font-size: 12px;
     padding: 4px 30px;
     border-width: 8px;
     font-family: 'Press Start 2P', cursive;
