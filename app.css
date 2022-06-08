@@ -65,6 +65,11 @@ h2 {
     font-family: 'Press Start 2P', cursive;
 }
 
+h3 {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 10px;
+}
+
 .button {
   display: inline-flex;
   justify-content: center;
