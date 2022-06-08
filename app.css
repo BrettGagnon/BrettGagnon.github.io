@@ -1,9 +1,9 @@
 #header {
-  z-index: 100;
+  /* z-index: 100; */
   display:flex;
-  left: 0;
+  left: 0; 
   top: 0px;
-  height: 100px;
+  height: 125px;
   width: 100%;
   position: fixed;
   background: url(../images/nav-bg.gif) #353535;
@@ -13,16 +13,34 @@
 
 #headerspans {
   display:flex;
-  padding-top: 20px;
- /* padding-left: 10%; */
+  padding-top: 30px;
+  padding-left: 10px;
 }
 
-div {
-  display: block;
+#title {
+  display:flex;
+  padding-top: 50px;
 }
+
+html {
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+body {
+  color: #f0e7d5;
+  font-weight: normal;
+  background: #252525;
+}
+
+span {
+  padding-left: 40px;
+}
+
 h1 {
   font-size: 2.8em;
-  padding-top: 5%;
+  padding-top: 15%;
   padding-left: 28%;
   padding-right: 33%;
   font-family: 'Press Start 2P', cursive;
@@ -42,41 +60,15 @@ h2 {
     letter-spacing: .188em;
     color: #fff;
     font-size: 10px;
-    padding: 4px 30px;
+    /* padding-top: 12px; */
     border-width: 8px;
     font-family: 'Press Start 2P', cursive;
 }
-body {
-  padding: 0px 0 20px 0px;
-  margin: 0px;
-  font: 14px/1.5 "OpenSansRegular", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #f0e7d5;
-  font-weight: normal;
-  background: #252525;
-  background-attachment: fixed !important;
-  background: linear-gradient(#2a2a29, #1c1c1c);
-}
-html, button, input, select, textarea {
-  font-family: sans-serif;
-}
-html {
-  font-size: 100%;
-  -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-}
-span {
-  
-  padding-left: 40px;
-}
 
 .button {
-    position: relative;
-    display: inline-flex;
-    flex-shrink: 0;
-    justify-content: center;
-    overflow: hidden;
-    font: inherit;
-    font-weight: 500;
+  display: inline-flex;
+  justify-content: center;
+  font-weight: 500;
     line-height: 1.67;
     text-align: center;
     text-decoration: none;
@@ -88,17 +80,14 @@ span {
     background-color: #583bb6;
     border-color: #583bb6;
     color: #fff;
-    font-size: 20px;
+    font-size: 13px;
     padding: 4px 30px;
     border-width: 8px;
     font-family: 'Press Start 2P', cursive;
 }
 
-
-  .button:hover {
-    color: yellow;
-    box-shadow: 0 0.5em 0.5em -.04em #f1ff5c;
-    transform: translateY(0.25em);
-  }
-
-
+.button:hover {
+  color: yellow;
+  box-shadow: 0 0.5em 0.5em -.04em #f1ff5c;
+  transform: translateY(0.25em);
+}
