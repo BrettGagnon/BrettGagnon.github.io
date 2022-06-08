@@ -12,6 +12,7 @@
 }
 
 #headerspans {
+  display:flex;
   padding-top: 20px;
  /* padding-left: 10%; */
 }
