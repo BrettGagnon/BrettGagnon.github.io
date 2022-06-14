@@ -92,31 +92,27 @@ h2 {
 h3 {
   font-family: 'Press Start 2P', cursive;
   font-size: 20px;
-  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+  /* padding-top: 30px; */
 }
 
 #title {
   display:flex;
-  /* padding-top: 7%; */
-  /* position:relative; */
+  justify-content: center;
 }
 
-#P1 {
-  /* padding-top: 50px; */
-  padding-left: 20%;
-}
 
 #socialm {
-  /* position:absolute; */
   display:flex;
-  /* padding-top: 6%; */
   justify-content: center;
   padding-top: 1em;
-  /* padding-left: 40%; */
+ 
 }
 
 #dudes {
-  padding-left: 30%;
+  display: flex;
+  justify-content: center;
 }
 
 html {
@@ -164,6 +160,10 @@ html {
 }
 
 @media (max-width: 768px){
+
+  #header {
+    height:250px;
+  }
 
   h1 {
       font-size: 4em;
