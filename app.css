@@ -1,48 +1,12 @@
 #header {
-  /* z-index: 100; */
-  display:flex;
   left: 0; 
   top: 0px;
   height: 125px;
   width: 100%;
-  position: absolute;
   background: url(../images/nav-bg.gif) #353535;
   border-bottom: 4px solid #434343;
   box-shadow: 0px 1px 3px rgb(0 0 0 / 25%);
-}
-
-#headerspans {
-  display:flex;
-  padding-top: 30px;
-  padding-left: 10px;
-}
-
-#title {
-  display:flex;
-  /* padding-top: 7%; */
-  /* position:relative; */
-}
-
-#P1 {
-  padding-top: 50px;
-  padding-left: 25%;
-}
-
-#socialm {
-  /* position:absolute; */
-  display:flex;
-  padding-top: 10%;
-  padding-left: 40%;
-}
-
-#dudes {
-  padding-left: 30%;
-}
-
-html {
-  font-size: 100%;
-  -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
+  position: relative;
 }
 
 body {
@@ -51,8 +15,51 @@ body {
   background: #252525;
 }
 
-span {
-  padding-left: 40px;
+nav {
+  padding-top: 1%;
+  font-size: 1.5em;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+ul,li {
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+ul {
+  flex: 1;
+  max-width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.button {
+  display: inline-flex;
+  justify-content: center;
+  font-weight: 500;
+    line-height: 1.67;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: .188em;
+    cursor: pointer;
+    border: 0 solid rgba(0,0,0,0);
+    border-radius: 50px;
+    background-color: #583bb6;
+    border-color: #583bb6;
+    color: #fff;
+    font-size: 13px;
+    padding: 4px 30px;
+    border-width: 8px;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.button:hover {
+  color: yellow;
+  box-shadow: 0 0.5em 0.5em -.04em #f1ff5c;
+  transform: translateY(0.25em);
 }
 
 h1 {
@@ -88,33 +95,34 @@ h3 {
   padding-top: 30px;
 }
 
-.button {
-  display: inline-flex;
+#title {
+  display:flex;
+  /* padding-top: 7%; */
+  /* position:relative; */
+}
+
+#P1 {
+  padding-top: 50px;
+  padding-left: 25%;
+}
+
+#socialm {
+  /* position:absolute; */
+  display:flex;
+  /* padding-top: 6%; */
   justify-content: center;
-  font-weight: 500;
-    line-height: 1.67;
-    text-align: center;
-    text-decoration: none;
-    text-transform: uppercase;
-    letter-spacing: .188em;
-    cursor: pointer;
-    border: 0 solid rgba(0,0,0,0);
-    border-radius: 50px;
-    background-color: #583bb6;
-    border-color: #583bb6;
-    color: #fff;
-    font-size: 13px;
-    padding: 4px 30px;
-    border-width: 8px;
-    font-family: 'Press Start 2P', cursive;
+  /* padding-left: 40%; */
 }
 
-.button:hover {
-  color: yellow;
-  box-shadow: 0 0.5em 0.5em -.04em #f1ff5c;
-  transform: translateY(0.25em);
+#dudes {
+  padding-left: 30%;
 }
 
+html {
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
 
 .fa {
   padding: 20px;
@@ -152,4 +160,20 @@ h3 {
 .fa-instagram {
   background: #8645db;
   color: white;
+}
+
+@media (max-width: 768px){
+  h1 {
+      font-size: 4em;
+  }
+  nav, nav ul {
+      flex-direction: column;
+      align-items: center;
+  }
+
+}
+@media (max-width: 576px){
+  h1 {
+      font-size: 3em;
+  }
 }
