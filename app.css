@@ -111,6 +111,7 @@ h3 {
   display:flex;
   /* padding-top: 6%; */
   justify-content: center;
+  padding-top: 1em;
   /* padding-left: 40%; */
 }
 
@@ -167,14 +168,14 @@ html {
   h1 {
       font-size: 4em;
   }
-  nav, nav ul {
+  div, nav, nav ul {
       flex-direction: column;
       align-items: left;
   }
 
   #socialm {
     padding-top: 33%;
-    flex-direction: column;
+    /* flex-direction: column; */
     align-items: center;
   }
 
