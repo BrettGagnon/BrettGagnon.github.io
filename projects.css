@@ -1,5 +1,9 @@
+#lis {
+  padding: 0.5em;
+}
+
 #header {
-  left: 0; 
+  left: 0;
   top: 0px;
   height: 125px;
   width: 100%;
@@ -15,7 +19,7 @@ body {
   background: #252525;
 }
 
-#title{
+#title {
   justify-content: center;
 }
 
@@ -42,11 +46,13 @@ nav {
 }
 
 
-ul,li {
+ul,
+li {
   display: inline;
   margin: 0;
   padding: 0;
 }
+
 ul {
   flex: 1;
   max-width: 50%;
@@ -58,21 +64,21 @@ ul {
   display: inline-flex;
   justify-content: center;
   font-weight: 500;
-    line-height: 1.67;
-    text-align: center;
-    text-decoration: none;
-    text-transform: uppercase;
-    letter-spacing: .188em;
-    cursor: pointer;
-    border: 0 solid rgba(0,0,0,0);
-    border-radius: 50px;
-    background-color: #583bb6;
-    border-color: #583bb6;
-    color: #fff;
-    font-size: 13px;
-    padding: 4px 30px;
-    border-width: 8px;
-    font-family: 'Press Start 2P', cursive;
+  line-height: 1.67;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: .188em;
+  cursor: pointer;
+  border: 0 solid rgba(0, 0, 0, 0);
+  border-radius: 50px;
+  background-color: #583bb6;
+  border-color: #583bb6;
+  color: #fff;
+  font-size: 13px;
+  padding: 4px 30px;
+  border-width: 8px;
+  font-family: 'Press Start 2P', cursive;
 }
 
 .button:hover {
@@ -96,6 +102,7 @@ h2 {
   padding-top: 1em;
   padding-bottom: 1em;
 }
+
 h3 {
   font-size: 1em;
   font-family: 'Press Start 2P', cursive;
@@ -103,18 +110,21 @@ h3 {
   justify-content: center;
 }
 
-@media (max-width: 768px){
+@media (max-width: 768px) {
 
   #header {
-    height:275px;
+    height: 275px;
   }
 
   h1 {
-      font-size: 2.5em;
+    font-size: 2.5em;
   }
-   nav, nav ul {
-      flex-direction: column;
-      align-items: left;
-      padding-top: .1em;
-      padding-bottom: .1em;
-  }}
+
+  nav,
+  nav ul {
+    flex-direction: column;
+    align-items: left;
+    padding-top: .1em;
+    padding-bottom: .1em;
+  }
+}
